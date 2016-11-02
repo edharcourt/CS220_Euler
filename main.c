@@ -17,11 +17,18 @@
 extern int mymax1(int x, int y);
 extern void day1();
 
+extern long long example1();
+extern long long example1c(long long x, long long y);
+
+
 int main(void)
 {
 
-	// read two integers
 	int x, y;
+	long long r = example1();
+	printf("%lld\n",r);
+    //example1c(0,0);
+	// read two integers
 	printf("Enter two integers: ");
 	scanf("%d%d", &x, &y);
 
@@ -30,6 +37,5 @@ int main(void)
     day1();
 
     printf("The larger is: %d\n", z);
-
     return 0;
 }

@@ -7,9 +7,9 @@ mymax1:
 	sub	sp, sp, #16
 	str	w0, [sp, 12]
 	str	w1, [sp, 8]
-	ldr	w1, [sp, 12]
+	ldur w1, [sp, 12]
+	mov x11, #1236
 	ldr	w0, [sp, 8]
-	add x19,x20,#3
 	cmp	w1, w0
 	ble	.L2
 	ldr	w0, [sp, 12]
