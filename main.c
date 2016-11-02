@@ -15,6 +15,7 @@
 //void __auto_semihosting(void) __attribute__ ((alias("main")));
 
 extern int mymax1(int x, int y);
+extern void day1();
 
 int main(void)
 {
@@ -25,6 +26,8 @@ int main(void)
 	scanf("%d%d", &x, &y);
 
     int z = mymax1(x,y);
+
+    day1();
 
     printf("The larger is: %d\n", z);
 

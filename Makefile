@@ -4,10 +4,14 @@
 # This example is intended to be built with Linaro bare-metal GCC
 
 TARGET=example1_ARMv8_GCC.axf
+ARCH = armv8-a
+CC = aarch64-elf-gcc
+LD = aarch64-elf-gcc
+C_SRC := $(wildcard *.c)
+S_SRC := $(wildcard *.s)
+OBJ_FILES := $(C_SRC:%.c=%.o) $(S_SRC:%.s=%.o)
 
-CC=aarch64-elf-gcc
-LD=aarch64-elf-gcc
-
+# START - do not touch!
 # Select build rules based on Windows or Unix
 ifdef WINDIR
 DONE=@if exist $(1) echo Build completed.
@@ -23,6 +27,7 @@ DONE=@if [ -f $(1) ]; then echo Build completed.; fi
 RM=rm -f $(1)
 endif
 endif
+# END - do not touch!
 
 all: $(TARGET)
 	$(call DONE,$(TARGET))
@@ -33,14 +38,11 @@ clean:
 	$(call RM,*.o)
 	$(call RM,$(TARGET))
 
-main.o: main.c
-	$(CC) -c -march=armv8-a -g -O0 $^ -o $@
+%.o : %.c
+	$(CC) -c -march=$(ARCH) -g -O0 -o $@ $<
 
-mymax.o: mymax.c
-	$(CC) -c -march=armv8-a -g -O0 $^ -o $@
+%.o : %.s
+	$(CC) -c -march=$(ARCH) -g -O0 -o $@ $<
 
-mymax1.o : mymax1.S
-	$(CC) -c -march=armv8-a -g -o $@ $<
-
-$(TARGET): main.o mymax1.o
-	$(LD) --specs=aem-ve.specs -Wl,--build-id=none,-Map=linkmap.txt mymax1.o main.o -o $@
+$(TARGET): $(OBJ_FILES)
+	$(LD) --specs=aem-ve.specs -Wl,--build-id=none,-Map=linkmap.txt day1c.o mymax1.o main.o  -o $@
