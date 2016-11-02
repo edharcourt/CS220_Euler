@@ -5,42 +5,48 @@
 <stringAttribute key="ANDROID_APP_DIR" value=""/>
 <stringAttribute key="ANDROID_PROCESS_NAME" value=""/>
 <mapAttribute key="AverageDurationTracker">
-<mapEntry key="*Fetching Data Model" value="437554"/>
-<mapEntry key="*list global low level symbols" value="1425269"/>
-<mapEntry key="*loading values from target" value="1720571"/>
-<mapEntry key="*updating registers" value="32006738"/>
-<mapEntry key="*updating variables" value="446105"/>
-<mapEntry key="AddEventObserver" value="1460451"/>
-<mapEntry key="Evaluate" value="642446"/>
-<mapEntry key="Retrieving globals list" value="45867911"/>
-<mapEntry key="areCachesAvailable" value="219071"/>
-<mapEntry key="break" value="2552915"/>
-<mapEntry key="continue" value="17236819"/>
-<mapEntry key="core" value="1866852"/>
-<mapEntry key="disassemble" value="23975915"/>
-<mapEntry key="evaluate" value="1881870"/>
-<mapEntry key="evaluate address" value="521744"/>
-<mapEntry key="get capabilities" value="234391"/>
-<mapEntry key="get execution addresss" value="224266"/>
-<mapEntry key="get source lines" value="227143"/>
-<mapEntry key="getValidEncodings" value="141249"/>
-<mapEntry key="initialize command help" value="24443702"/>
+<mapEntry key="*Fetching Data" value="89949931"/>
+<mapEntry key="*Fetching Data Model" value="260341"/>
+<mapEntry key="*FunctionLoader" value="82281432"/>
+<mapEntry key="*list global low level symbols" value="1361470"/>
+<mapEntry key="*loading memory from target" value="1621038"/>
+<mapEntry key="*loading values from target" value="3120676"/>
+<mapEntry key="*updating registers" value="40675346"/>
+<mapEntry key="*updating variables" value="404556"/>
+<mapEntry key="AddEventObserver" value="1416351"/>
+<mapEntry key="Evaluate" value="496394"/>
+<mapEntry key="Retrieving globals list" value="64418195"/>
+<mapEntry key="areCachesAvailable" value="319396"/>
+<mapEntry key="break" value="1496357"/>
+<mapEntry key="continue" value="18295723"/>
+<mapEntry key="core" value="1510887"/>
+<mapEntry key="disassemble" value="22733674"/>
+<mapEntry key="evaluate" value="2073901"/>
+<mapEntry key="evaluate address" value="430358"/>
+<mapEntry key="finish" value="8322244"/>
+<mapEntry key="get byte order" value="378223"/>
+<mapEntry key="get capabilities" value="213285"/>
+<mapEntry key="get cwd" value="179818"/>
+<mapEntry key="get execution addresss" value="151959"/>
+<mapEntry key="get source lines" value="143582"/>
+<mapEntry key="getValidEncodings" value="342556"/>
+<mapEntry key="initialize command help" value="23833354"/>
 <mapEntry key="interrupt" value="684007"/>
-<mapEntry key="list breakpoints" value="553970"/>
-<mapEntry key="list instruction sets" value="320179"/>
-<mapEntry key="list signals" value="1993382"/>
-<mapEntry key="list watchpoints" value="549059"/>
-<mapEntry key="loadfile" value="44243049"/>
-<mapEntry key="next" value="19484683"/>
+<mapEntry key="list breakpoints" value="1063487"/>
+<mapEntry key="list instruction sets" value="120724"/>
+<mapEntry key="list signals" value="2772549"/>
+<mapEntry key="list watchpoints" value="383631"/>
+<mapEntry key="loadfile" value="32465363"/>
+<mapEntry key="next" value="19570903"/>
 <mapEntry key="remove" value="1866205"/>
-<mapEntry key="set CWD" value="1687749"/>
-<mapEntry key="set breakpoint properties" value="5666155"/>
-<mapEntry key="set debug-from" value="481675"/>
-<mapEntry key="source use_model_semihosting.ds" value="8143779"/>
-<mapEntry key="start" value="40719335"/>
-<mapEntry key="step" value="24106385"/>
+<mapEntry key="set CWD" value="3840847"/>
+<mapEntry key="set breakpoint properties" value="2321040"/>
+<mapEntry key="set debug-from" value="459461"/>
+<mapEntry key="source use_model_semihosting.ds" value="3393241"/>
+<mapEntry key="start" value="35370349"/>
+<mapEntry key="step" value="21818948"/>
 <mapEntry key="toggleBreakpoint" value="4106986"/>
-<mapEntry key="waitForTargetToStop" value="16858261"/>
+<mapEntry key="waitForTargetToStop" value="11613579"/>
 </mapAttribute>
 <intAttribute key="DEBUG_TAB..RESOURCES.COUNT" value="0"/>
 <stringAttribute key="DISABLE_EXTENDED_MODE" value="true"/>
@@ -65,29 +71,29 @@
 <listAttribute key="FILES.DOWNLOAD_AND_DEBUG"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.TYPE" value="TARGET_DOWNLOAD_DIR"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.0.VALUE" value=""/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.TYPE" value="TARGET_WORKING_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.1.VALUE" value=""/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.TYPE" value="TARGET_DOWNLOAD_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.TYPE" value="TARGET_WORKING_DIR"/>
 <stringAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.2.VALUE" value=""/>
 <intAttribute key="FILES.DOWNLOAD_AND_DEBUG.RESOURCES.COUNT" value="3"/>
 <listAttribute key="FILES.DOWNLOAD_DEBUG"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.TYPE" value="TARGET_DOWNLOAD_DIR"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.0.VALUE" value=""/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.TYPE" value="TARGET_WORKING_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.TYPE" value="APP_ON_HOST_TO_DOWNLOAD"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.1.VALUE" value=""/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.OPTION.ALSO_LOAD_SYMBOLS" value="false"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.OPTION.ON_DEMAND_LOAD" value="true"/>
-<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.TYPE" value="TARGET_DOWNLOAD_DIR"/>
+<stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.TYPE" value="TARGET_WORKING_DIR"/>
 <stringAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.2.VALUE" value=""/>
 <intAttribute key="FILES.DOWNLOAD_DEBUG.RESOURCES.COUNT" value="3"/>
 <intAttribute key="FILES.DOWNLOAD_DEBUG_ANDROID.RESOURCES.COUNT" value="0"/>
@@ -127,10 +133,29 @@
 <booleanAttribute key="RSE_USE_HOSTNAME" value="true"/>
 <stringAttribute key="TCP_DISABLE_EXTENDED_MODE" value="true"/>
 <booleanAttribute key="TCP_KILL_ON_EXIT" value="false"/>
+<listAttribute key="TREE_NODE_PROPERTIES:debugger.view.NewRegisterView">
+<listEntry value="NODE CACHE VERSION 1"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X0"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X1"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X2"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+<listEntry value="REGISTER_ROOT:All Registers:REGISTER_SET:$AARCH64:REGISTER_GROUP:$AARCH64::$Core:VALUE:$AARCH64::$Core::$X3"/>
+<listEntry value="1"/>
+<listEntry value="formatter"/>
+<listEntry value="Signed Decimal"/>
+</listAttribute>
 <booleanAttribute key="VFS_ENABLED" value="false"/>
 <stringAttribute key="VFS_LOCAL_DIR" value="${workspace_loc}"/>
 <stringAttribute key="VFS_REMOTE_MOUNT" value="/writeable"/>
-<stringAttribute key="breakpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;breakpoints&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; list_all_threads=&quot;no&quot; core_list=&quot;{}&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; debugFile=&quot;/home/edharcourt/DS-5-Workspace/calendar_ARMv8_GCC/calendar.c&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/calendar_ARMv8_GCC/calendar.c&quot; line=&quot;41&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; debugFile=&quot;/home/edharcourt/DS-5-Workspace/calendar_ARMv8_GCC/calendar.c&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/calendar_ARMv8_GCC/calendar.c&quot; line=&quot;41&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; list_all_threads=&quot;no&quot; core_list=&quot;{}&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080001320&quot; debugFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/main.c&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/main.c&quot; line=&quot;29&quot; function=&quot;main&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080001320&quot; debugFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/main.c&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/main.c&quot; line=&quot;29&quot; function=&quot;main&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; list_all_threads=&quot;no&quot; core_list=&quot;{}&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/main.c&quot; line=&quot;24&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x00000000800012F0&quot; debugFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/main.c&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/main.c&quot; line=&quot;24&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; list_all_threads=&quot;no&quot; core_list=&quot;{}&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080001338&quot; debugFile=&quot;/home/edharcourt/DS-5-Workspace/calendar_ARMv8_GCC/main.c&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/main.c&quot; line=&quot;41&quot; function=&quot;main&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080001310&quot; debugFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/main.c&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/main.c&quot; line=&quot;27&quot; function=&quot;main&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&lt;/breakpoints&gt;&#10;"/>
+<stringAttribute key="breakpoints" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;breakpoints&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; list_all_threads=&quot;no&quot; core_list=&quot;{}&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; debugFile=&quot;/home/edharcourt/DS-5-Workspace/calendar_ARMv8_GCC/calendar.c&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/calendar_ARMv8_GCC/calendar.c&quot; line=&quot;41&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; debugFile=&quot;/home/edharcourt/DS-5-Workspace/calendar_ARMv8_GCC/calendar.c&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/calendar_ARMv8_GCC/calendar.c&quot; line=&quot;41&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; list_all_threads=&quot;no&quot; core_list=&quot;{}&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/example1.s&quot; line=&quot;32&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x000000008000136C&quot; debugFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/example1.s&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/example1.s&quot; line=&quot;33&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; list_all_threads=&quot;no&quot; core_list=&quot;{}&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/main.c&quot; line=&quot;31&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x00000000800013D8&quot; debugFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/main.c&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/main.c&quot; line=&quot;31&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; list_all_threads=&quot;no&quot; core_list=&quot;{}&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/main.c&quot; line=&quot;37&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080001418&quot; debugFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/main.c&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/main.c&quot; line=&quot;37&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; list_all_threads=&quot;no&quot; core_list=&quot;{}&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/mymax1.S&quot; line=&quot;7&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080001380&quot; debugFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/mymax1.S&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/mymax1.S&quot; line=&quot;7&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; list_all_threads=&quot;no&quot; core_list=&quot;{}&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/main.c&quot; line=&quot;27&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x00000000800013C0&quot; debugFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/main.c&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/main.c&quot; line=&quot;27&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; list_all_threads=&quot;no&quot; core_list=&quot;{}&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/example1.s&quot; line=&quot;19&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080001340&quot; debugFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/example1.s&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/example1.s&quot; line=&quot;19&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; list_all_threads=&quot;no&quot; core_list=&quot;{}&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/example1.s&quot; line=&quot;17&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080001344&quot; debugFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/example1.s&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/example1.s&quot; line=&quot;21&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&#9;&lt;breakpoint ignorecount=&quot;0&quot; threadenabled=&quot;no&quot; list_all_threads=&quot;no&quot; core_list=&quot;{}&quot; continue=&quot;no&quot; verboseBreakpoints=&quot;yes&quot; kind=&quot;SOURCEPOSITION&quot;&gt;&#10;&#9;&#9;&lt;master_location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/example1.s&quot; line=&quot;36&quot;/&gt;&#10;&#9;&#9;&lt;location index=&quot;0&quot; enabled=&quot;true&quot; version=&quot;2&quot; address=&quot;EL3:0x0000000080001370&quot; debugFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/example1.s&quot; hostFile=&quot;/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/example1.s&quot; line=&quot;37&quot;/&gt;&#10;&#9;&lt;/breakpoint&gt;&#10;&lt;/breakpoints&gt;&#10;"/>
 <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.DisassemblyView.addresses">
 <listEntry value="&lt;Next Instruction&gt;"/>
 </listAttribute>
@@ -139,9 +164,13 @@
 </listAttribute>
 <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.MemoryView.addresses">
 <listEntry value=""/>
+<listEntry value="$sp"/>
+<listEntry value="$sp"/>
 </listAttribute>
 <listAttribute key="com.arm.debug.views.common.AddressTracker.debugger.view.MemoryView.ranges">
 <listEntry value=""/>
+<listEntry value="8"/>
+<listEntry value="1024"/>
 </listAttribute>
 <listAttribute key="com.arm.debugger.views.common.AddressTracker.debugger.view.DisassemblyView.addresses">
 <listEntry value="&lt;Next Instruction&gt;"/>
@@ -158,6 +187,7 @@
 <stringAttribute key="config_db_taxonomy_id" value="/platform/armmodel/armv8_ax1foundationplatform"/>
 <stringAttribute key="config_file" value="CDB://cadi_config.xml"/>
 <booleanAttribute key="connectOnly" value="false"/>
+<stringAttribute key="debugger.view.DataView.cache:DataView" value="rO0ABXNyACtjb20uYXJtLmRlYnVnLnZpZXdzLmRhdGEuRGF0YVZpZXdQcm9wZXJ0aWVzAAAAAAAAAAECAAB4cgAlY29tLmFybS5kZWJ1Zy52aWV3cy5kYXRhLlByb3BlcnR5VHJlZQAAAAAAAAABAwABTAAFbURhdGF0ABNMamF2YS91dGlsL0hhc2hNYXA7eHB3BAAAAAJ0ABJkYXRhYmFzZVByb3BlcnRpZXNzcQB+AAF3BAAAAAF0AAVjYWNoZXNyACtjb20uYXJtLmRlYnVnLnZpZXdzLmRhdGEuRGF0YWJhc2VQcm9wZXJ0aWVzAAAAAAAAAAECAAB4cQB+AAF3BAAAAAJ0AAJpZHEAfgAGdAAMY3VycmVudFRhYmxldAAJTDFJOjp0YWdzeHh0AA9jdXJyZW50RGF0YWJhc2VxAH4ABng="/>
 <listAttribute key="debugger.view.DisassemblyView:current">
 <listEntry value="&lt;Next Instruction&gt;"/>
 <listEntry value="100"/>
@@ -167,7 +197,7 @@
 <listEntry value=""/>
 <listEntry value=""/>
 </listAttribute>
-<stringAttribute key="debugger.view.NewRegisterView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;107&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;109&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;149&#9;-1&#9;true&#9;3&#9;false&#9;true&#9;48&#9;-1&#9;true&#9;4&#9;false&#9;true&#9;58&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;43&#9;-1&#9;true&#9;6&#9;false&#9;true&#9;76&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;62&#9;-1&#9;true"/>
+<stringAttribute key="debugger.view.NewRegisterView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;107&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;109&#9;-1&#9;true&#9;2&#9;true&#9;false&#9;182&#9;-1&#9;true&#9;3&#9;false&#9;true&#9;48&#9;-1&#9;true&#9;4&#9;false&#9;true&#9;58&#9;-1&#9;true&#9;5&#9;true&#9;false&#9;43&#9;-1&#9;true&#9;6&#9;false&#9;true&#9;76&#9;-1&#9;true&#9;7&#9;true&#9;false&#9;62&#9;-1&#9;true"/>
 <stringAttribute key="debugger.view.NewRegisterView:_selectedRegisterSet" value="All registers"/>
 <mapAttribute key="debugger.view.NewRegisterView_registerSets"/>
 <stringAttribute key="debugger.view.StackView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;56&#9;-1&#9;true&#9;1&#9;false&#9;true&#9;109&#9;-1&#9;true&#9;2&#9;true&#9;true&#9;55&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;48&#9;-1&#9;true&#9;4&#9;true&#9;true&#9;58&#9;-1&#9;true&#9;5&#9;true&#9;true&#9;43&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;76&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;62&#9;-1&#9;true"/>
@@ -176,6 +206,7 @@
 <listAttribute key="debugger.view.VariableTreeView:USER_ADDED_FILE_STATICS"/>
 <listAttribute key="debugger.view.VariableTreeView:USER_ADDED_GLOBALS"/>
 <booleanAttribute key="debugger.view.register.DrawAsHex" value="false"/>
+<stringAttribute key="debugger.view.symbols.FunctionsView:DebugOutlineColumnState" value="OutlineConfig1&#9;8&#9;0&#9;true&#9;true&#9;216&#9;1&#9;true&#9;1&#9;false&#9;true&#9;123&#9;-1&#9;true&#9;2&#9;false&#9;true&#9;112&#9;-1&#9;true&#9;3&#9;true&#9;true&#9;197&#9;0&#9;true&#9;4&#9;true&#9;true&#9;199&#9;-1&#9;true&#9;5&#9;false&#9;true&#9;47&#9;-1&#9;true&#9;6&#9;true&#9;true&#9;400&#9;-1&#9;true&#9;7&#9;true&#9;true&#9;400&#9;-1&#9;true"/>
 <booleanAttribute key="debugger.view.variable.DrawAsHex" value="false"/>
 <stringAttribute key="dtsl_config" value="DtslScript"/>
 <stringAttribute key="dtsl_config_script" value="CDB://dtsl_config_script.py"/>
@@ -190,6 +221,7 @@
 <stringAttribute key="model_params" value=""/>
 <booleanAttribute key="runAfterConnect" value="false"/>
 <stringAttribute key="runTargetInitializationScript" value="/home/edharcourt/DS-5-Workspace/example1_ARMv8_GCC/use_model_semihosting.ds"/>
+<listAttribute key="scripts_view_expanded_nodes"/>
 <stringAttribute key="serial_device" value="8"/>
 <listAttribute key="setup">
 <listEntry value="DS5://sw/debugger/configdb/Scripts/rtsm_launcher.py"/>

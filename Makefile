@@ -39,8 +39,14 @@ main.o: main.c
 mymax.o: mymax.c
 	$(CC) -c -march=armv8-a -g -O0 $^ -o $@
 
+example1c.o: example1c.c
+	$(CC) -c -march=armv8-a -g -O0 $^ -o $@
+
 mymax1.o : mymax1.S
 	$(CC) -c -march=armv8-a -g -o $@ $<
 
-$(TARGET): main.o mymax1.o
-	$(LD) --specs=aem-ve.specs -Wl,--build-id=none,-Map=linkmap.txt mymax1.o main.o -o $@
+example1.o : example1.s
+	$(CC) -c -march=armv8-a -g -o $@ $<
+
+$(TARGET): main.o mymax1.o example1.o example1c.o
+	$(LD) --specs=aem-ve.specs -Wl,--build-id=none,-Map=linkmap.txt example1c.o example1.o mymax1.o main.o -o $@
