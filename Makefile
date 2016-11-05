@@ -45,4 +45,4 @@ clean:
 	$(CC) -c -march=$(ARCH) -g -O0 -o $@ $<
 
 $(TARGET): $(OBJ_FILES)
-	$(LD) --specs=aem-ve.specs -Wl,--build-id=none,-Map=linkmap.txt day1c.o mymax1.o main.o  -o $@
+	$(LD) --specs=aem-ve.specs -Wl,--build-id=none,-Map=linkmap.txt $(OBJ_FILES)  -o $@
