@@ -86,12 +86,15 @@ end_loop:
     return sum;
 }
 
+extern long long euler();
+
 int main(void)
 {
 
 	int x, y;
 	printf("Euler 1: %lld\n", euler_in_c());
-	printf("Euler 1: %lld\n", euler_in_asm_c());
+	printf("Euler 2: %lld\n", euler_in_asm_c());
+	printf("Euler 3: %lld\n", euler());
 
 	long long r = example1();
 	printf("%lld\n",r);

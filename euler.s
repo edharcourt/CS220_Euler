@@ -1,3 +1,9 @@
+	.arch armv8-a
+	.text
+	.align	2
+	.global	euler
+	.type	euler, %function
+
 /*
 
 int euler_in_asm_c() {
@@ -61,8 +67,20 @@ loop:
     sub x2, x0, 1000
     cbz x2, end_loop
     sdiv x6, x0, x3        // compute i % 3
-    msub x6, x2, x3, x6
+    msub x6, x0, x6, x3
+    cbnz x6, elseifcheck
+    add x1, x1, x0
+    b endif
+elseifcheck:
+    sdiv x6, x0, x5        // compute i % 5
+    msub x6, x0, x6, x5
+    cbnz x6, endif
+    add x1, x1, 0
 
+endif:
+    add x0, x0, 1
+    b loop
 
 end_loop:
+    mov x0, x1
     ret
