@@ -38,6 +38,8 @@ clean:
 	$(call RM,*.o)
 	$(call RM,$(TARGET))
 
+# $@ is the filename of the target. For example, main.o
+# $< is the filename of the prerequisite, in this case, for example, main.c
 %.o : %.c
 	$(CC) -c -march=$(ARCH) -g -O0 -o $@ $<
 
