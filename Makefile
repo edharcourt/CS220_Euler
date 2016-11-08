@@ -3,7 +3,7 @@
 # This makefile is intended for use with GNU make
 # This example is intended to be built with Linaro bare-metal GCC
 
-TARGET=example1_ARMv8_GCC.axf
+TARGET=euler_ARMv8_GCC.axf
 ARCH = armv8-a
 CC = aarch64-elf-gcc
 LD = aarch64-elf-gcc

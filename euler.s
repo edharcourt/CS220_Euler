@@ -67,15 +67,15 @@ loop:
     sub x2, x0, 1000
     cbz x2, end_loop
     sdiv x6, x0, x3        // compute i % 3
-    msub x6, x0, x6, x3
+    msub x6, x6, x3, x0    // x0 - x6*x3
     cbnz x6, elseifcheck
     add x1, x1, x0
     b endif
 elseifcheck:
     sdiv x6, x0, x5        // compute i % 5
-    msub x6, x0, x6, x5
+    msub x6, x6, x5, x0
     cbnz x6, endif
-    add x1, x1, 0
+    add x1, x1, x0
 
 endif:
     add x0, x0, 1
