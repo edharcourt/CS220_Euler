@@ -87,6 +87,7 @@ end_loop:
 }
 
 extern long long euler();
+extern int popcount(unsigned long long);
 
 int main(void)
 {
@@ -95,6 +96,7 @@ int main(void)
 	printf("Euler 1: %lld\n", euler_in_c());
 	printf("Euler 2: %lld\n", euler_in_asm_c());
 	printf("Euler 3: %lld\n", euler());
+	printf("popcount: %lld\n", popcount(0xAAAAAAAAAAAAAAAA));
 
 	long long r = example1();
 	printf("%lld\n",r);

@@ -66,7 +66,7 @@ euler:
 loop:
     sub x2, x0, 1000
     cbz x2, end_loop
-    sdiv x6, x0, x3        // compute i % 3
+    sdiv x6, x0, x3        // compute r = i % 3
     msub x6, x6, x3, x0    // x0 - x6*x3
     cbnz x6, elseifcheck
     add x1, x1, x0
