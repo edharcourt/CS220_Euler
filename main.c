@@ -88,9 +88,22 @@ end_loop:
 
 extern long long euler();
 extern int popcount(unsigned long long);
+extern long long array_sum(long long vec[], int n);
+
+static long long array_sum_c(long long vec[], int n) {
+
+	long long sum = 0;
+	for (int i = 0; i < n; i++) {
+        sum = sum + vec[i];
+    }
+	return sum;
+}
 
 int main(void)
 {
+
+    long long vec[] = {4, 9, 22, 3, 11, 15};
+    printf("array_sum: %lld\n", array_sum(vec,6));
 
 	int x, y;
 	printf("Euler 1: %lld\n", euler_in_c());
