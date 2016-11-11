@@ -11,10 +11,10 @@ array_sum:
     mov x3, 0  // i
 
 array_sum_while:
-    cmp x3, x1
-    b.eq array_sum_end_while
+    subs x5, x3, x1
+    cbz x5, array_sum_end_while
     ldr x4, [x0,#0]
-    add x4, x4, #8
+    add x0, x0, #8
     add x2, x2, x4
     add x3, x3, 1
     b array_sum_while
