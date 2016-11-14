@@ -16,6 +16,9 @@ example1:
 
     //sub sp, sp, 8
     //str x30, [sp]
+
+    // x29 is the frame pointer
+    // x30 is the procedure link register
     stp x29, x30, [sp, -16]!
 
     mov x0, -39
