@@ -19,7 +19,17 @@ extern void day1();
 
 extern long long example1();
 extern long long example1c(long long x, long long y);
+extern void int2bin_s(unsigned long long);
 
+static void int2bin(unsigned long long x) {
+    if (x == 0)
+    	printf("0");
+    else {
+        int2bin(x/2);
+        printf("%lld", x % 2);
+    }
+    return;
+}
 
 int euler_in_c() {
 
@@ -99,8 +109,17 @@ static long long array_sum_c(long long vec[], int n) {
 	return sum;
 }
 
-int main(void)
-{
+static long long myvec[] = {4, 9, 22, 3, 11, 15};
+static char *hello = "hello";
+
+int main(void) {
+    int2bin(43);
+    printf("\n");
+    return 0;
+}
+
+/*
+int main(void) {
 
     long long vec[] = {4, 9, 22, 3, 11, 15};
     printf("array_sum: %lld\n", array_sum(vec,6));
@@ -123,3 +142,4 @@ int main(void)
     printf("The larger is: %d\n", z);
     return 0;
 }
+*/

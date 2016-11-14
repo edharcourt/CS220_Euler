@@ -2,7 +2,7 @@
 	.text
 	.align	2
 	.global	mymax1
-	.type	mymax1, %function
+//	.type	mymax1, %function
 mymax1:
 	sub	sp, sp, #16
 	str	w0, [sp, 12]
