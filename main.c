@@ -113,7 +113,8 @@ static long long myvec[] = {4, 9, 22, 3, 11, 15};
 static char *hello = "hello";
 
 int main(void) {
-    int2bin(43);
+	int x = mymax1(10,20);
+    int2bin_s(43);
     printf("\n");
     return 0;
 }
