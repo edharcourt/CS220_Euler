@@ -30,7 +30,9 @@ int2bin_s:
     str x19, [sp, #16]   // push arg 0 into x19 so we can use it across printf call
     mov x19, x0
 
-    cbnz x19, int2bin_s_else
+    cmp x19, 0
+    b.ne int2bin_s_else
+//    cbnz x19, int2bin_s_else
     ldr x0, =int2bin_s_fmt
     mov x1, 0
     bl printf
