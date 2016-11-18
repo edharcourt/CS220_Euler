@@ -9,7 +9,8 @@ CC = aarch64-elf-gcc
 LD = aarch64-elf-gcc
 C_SRC := $(wildcard *.c)
 S_SRC := $(wildcard *.s)
-OBJ_FILES := $(C_SRC:%.c=%.o) $(S_SRC:%.s=%.o)
+OBJ_DIR = obj
+OBJ_FILES := $(C_SRC:%.c=$(OBJ_DIR)/%.o) $(S_SRC:%.s=$(OBJ_DIR)/%.o)
 
 # START - do not touch!
 # Select build rules based on Windows or Unix
@@ -35,15 +36,19 @@ all: $(TARGET)
 rebuild: clean all
 
 clean:
-	$(call RM,*.o)
+	$(call RM,$(OBJ_DIR)/*.o)
 	$(call RM,$(TARGET))
+#	$(call RM,$(OBJ_DIR)/*.o)
+
+$(OBJ_DIR):
+	mkdir $@
 
 # $@ is the filename of the target. For example, main.o
 # $< is the filename of the prerequisite, in this case, for example, main.c
-%.o : %.c
+$(OBJ_DIR)/%.o : %.c | $(OBJ_DIR)
 	$(CC) -c -march=$(ARCH) -g -O0 -o $@ $<
 
-%.o : %.s
+$(OBJ_DIR)/%.o : %.s | $(OBJ_DIR)
 	$(CC) -c -march=$(ARCH) -g -O0 -o $@ $<
 
 $(TARGET): $(OBJ_FILES)
