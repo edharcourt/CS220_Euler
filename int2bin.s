@@ -1,6 +1,7 @@
 	.arch armv8-a
 	.global	int2bin_s
 	.type	int2bin_s, %function
+    .global EnableCachesEL1
 
     .section	.rodata
 	.align 3
@@ -9,6 +10,18 @@ int2bin_s_fmt: .string "%lld"
 
 	.text
 	.align	2
+
+    .type EnableCachesEL1, "function"
+EnableCachesEL1:
+
+    mrs x0, SCTLR_EL1
+    orr x0, x0, (1 << 12)
+    orr x0, x0, (1 << 2)
+    msr     SCTLR_EL1, x0
+
+    isb
+    ret
+
 
 /*
 static void int2bin(unsigned long long x) {
